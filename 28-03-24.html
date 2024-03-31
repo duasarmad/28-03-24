@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #todos li button{
+            background-color: deeppink;
+            color: white;
+        }
+    </style>
+    <script src="./28-03-24.js"></script>
+</head>
+<body>
+    <input type="text" id="myinput">
+    <button id="btnAdd">Add To Do</button>
+    <ul id="todos">
+        <li>Banana <button onclick="handleDelete(event)">Delete</button></li>
+        <li>Apple<button onclick="handleDelete(event)">Delete</button></li>
+        <li>PineApple<button onclick="handleDelete(event)">Delete</button></li>
+        <li>FruitChat<button onclick="handleDelete(event)">Delete</button></li>
+    </ul>
+</body>
+</html>
